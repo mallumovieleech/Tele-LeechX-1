@@ -243,8 +243,8 @@ DEF_ANILIST_TEMPLATE = getVar("ANILIST_TEMPLATE", """<b>{ro_title}</b>({na_title
 <b>Description</b>: <i>{description}</i>""")
 
 #Telegraph Creds  >>>>>>>>>>>
-TGH_AUTHOR = getVar("TGH_AUTHOR ", "Tele-LeechX")
-TGH_AUTHOR_URL = getVar("TGH_AUTHOR_URL", "https://t.me/FXTorrentz")
+TGH_AUTHOR = getVar("TGH_AUTHOR", "ZKP143")
+TGH_AUTHOR_URL = getVar("TGH_AUTHOR_URL", "https://t.me/ZKP143")
 
 #Bot Command [Bot PM & Log Channel]  >>>>>>>>>>>
 LEECH_LOG = getVar("LEECH_LOG", "")
