@@ -162,20 +162,20 @@ async def theme_set(client, message):
         [
             [
                 InlineKeyboardButton(
-                    "fx-optimised-theme",
-                    callback_data=f"theme {user_id_} fx-optimised-theme",
+                    "MalluMovies-optimised-theme",
+                    callback_data=f"theme {user_id_} MalluMovies-optimised-theme",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    "fx-minimal-theme",
-                    callback_data=f"theme {user_id_} fx-minimal-theme",
+                    "MalluMovies-minimal-theme",
+                    callback_data=f"theme {user_id_} MalluMovies-minimal-theme",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    "fx-random-theme",
-                    callback_data=f"theme {user_id_} fx-random-theme",
+                    "MalluMovies-random-theme",
+                    callback_data=f"theme {user_id_} MalluMovies-random-theme",
                 )
             ],
             [InlineKeyboardButton("⛔️ Close ⛔️", callback_data="close")],
