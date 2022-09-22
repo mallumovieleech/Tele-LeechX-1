@@ -56,9 +56,11 @@ from tobrot.plugins.rclone_size import check_size_g, g_clearme
 from tobrot.plugins.status_message_fn import cancel_message_f, eval_message_f, exec_message_f, status_message_f, \
                                              upload_document_f, upload_log_file, upload_as_doc, upload_as_video
 
-botcmds = [
+botcmds = [       
+        BotCommand(f'{BotCommands.GLeechCommand}', '📨 [Reply] Mirror any File/ Torrent/ Magnet/ Direct Link '),
+        BotCommand(f'{BotCommands.UnzipCommand}', '🔐 Unarchive items . .'),
+        BotCommand(f'{BotCommands.ZipCommand}', '🗜 Archive as .tar.gz acrhive... '),
         BotCommand(f'{BotCommands.LeechCommand}', '📨 [Reply] Leech any Torrent/ Magnet/ Direct Link '),
-        BotCommand(f'{BotCommands.GLeechCommand}', '📨 [Reply] Leech any File/ Torrent/ Magnet/ Direct Link '),
         BotCommand(f'{BotCommands.ExtractCommand}', '🔐 Unarchive items . .'),
         BotCommand(f'{BotCommands.ArchiveCommand}', '🗜 Archive as .tar.gz acrhive... '),
         BotCommand(f'{BotCommands.ToggleDocCommand}', '📂 Toggle to Document Upload '),
