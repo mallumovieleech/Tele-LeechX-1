@@ -120,7 +120,7 @@ async def mediainfo(client, message):
     else:
         await process.edit_text("The requested URL was not found on this server. That’s all we know.")
         return
-    title = unquote(link.split('/')[-1]) if DIRECT_LINK else "FX Mediainfo"
+    title = unquote(link.split('/')[-1]) if DIRECT_LINK else "MalluMovies Mediainfo"
     tgh_link = post_to_telegraph_html(title, body_text)
 
     if TG_MEDIA:
