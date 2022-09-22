@@ -58,7 +58,7 @@ from tobrot.plugins.status_message_fn import cancel_message_f, eval_message_f, e
 
 botcmds = [
         BotCommand(f'{BotCommands.LeechCommand}', '📨 [Reply] Leech any Torrent/ Magnet/ Direct Link '),
-        BotCommand(f'{BotCommands.GleechCommand}', '📨 [Reply] Leech any File/ Torrent/ Magnet/ Direct Link '),
+        BotCommand(f'{BotCommands.GLeechCommand}', '📨 [Reply] Leech any File/ Torrent/ Magnet/ Direct Link '),
         BotCommand(f'{BotCommands.ExtractCommand}', '🔐 Unarchive items . .'),
         BotCommand(f'{BotCommands.ArchiveCommand}', '🗜 Archive as .tar.gz acrhive... '),
         BotCommand(f'{BotCommands.ToggleDocCommand}', '📂 Toggle to Document Upload '),
