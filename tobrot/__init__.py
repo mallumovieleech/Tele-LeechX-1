@@ -152,8 +152,8 @@ CUSTOM_FILE_NAME = getVar("CUSTOM_FILE_NAME", "")
 
 #Bot Command [Leech]  >>>>>>>>>>>
 LEECH_COMMAND = getVar("LEECH_COMMAND", "leech")
-LEECH_UNZIP_COMMAND = getVar("LEECH_UNZIP_COMMAND", "extract")
-LEECH_ZIP_COMMAND = getVar("LEECH_ZIP_COMMAND", "archive")
+LEECH_UNZIP_COMMAND = getVar("LEECH_UNZIP_COMMAND", "leechunzip")
+LEECH_ZIP_COMMAND = getVar("LEECH_ZIP_COMMAND", "leechzip")
 GLEECH_COMMAND = getVar("GLEECH_COMMAND", "mirror")
 GLEECH_UNZIP_COMMAND = getVar("GLEECH_UNZIP_COMMAND", "mirrorunzip")
 GLEECH_ZIP_COMMAND = getVar("GLEECH_ZIP_COMMAND", "mirrorzip")
