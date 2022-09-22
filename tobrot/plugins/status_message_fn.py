@@ -99,7 +99,7 @@ async def status_message_f(client: Client, message: Message):
             gid_dict[chat_id].pop()
             gid_dict[chat_id].append(mess_id)
 
-    prev_mess = "FXTorrentz"
+    prev_mess = "MalluMovies"
     try:
         await message.delete()
     except: pass
