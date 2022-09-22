@@ -3,8 +3,8 @@ from tobrot import *
 class _BotCommands:
     def __init__(self):
         self.GLeechCommand = f'{GLEECH_COMMAND}{BOT_NO}'
-        self.ExtractCommand = f'{GLEECH_UNZIP_COMMAND}{BOT_NO}'
-        self.ArchiveCommand = f'{GLEECH_ZIP_COMMAND}{BOT_NO}'
+        self.UnzipCommand = f'{GLEECH_UNZIP_COMMAND}{BOT_NO}'
+        self.ZipCommand = f'{GLEECH_ZIP_COMMAND}{BOT_NO}'
         self.LeechCommand = f'{LEECH_COMMAND}{BOT_NO}'
         self.ExtractCommand = f'{LEECH_UNZIP_COMMAND}{BOT_NO}'
         self.ArchiveCommand = f'{LEECH_ZIP_COMMAND}{BOT_NO}'
