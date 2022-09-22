@@ -265,7 +265,7 @@ PRM_USERS = getVar("PRM_USERS", "") #Optional
 PRM_LOG = getVar("PRM_LOG", "") #Optional 
 
 # Bot Theme [ UI & Customization ] >>>>>>>>
-BOT_THEME = getVar("BOT_THEME", "fx-optimised-theme")
+BOT_THEME = getVar("BOT_THEME", "MalluMovies-optimised-theme")
 
 # ForceSubscribe [ Channel ] >>>>>>>>
 FSUB_CHANNEL = getVar("FSUB_CHANNEL", "")
